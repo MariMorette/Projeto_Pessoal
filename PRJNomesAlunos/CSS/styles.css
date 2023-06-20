@@ -1,0 +1,70 @@
+
+/* Isto deve fazer-se sempre para remover qualquer margem, padding, etc */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: rgb(208, 62, 62);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid #ffd900;
+}
+/*seletor de H1 questão 2  */
+header h1 {
+text-align: center;
+font-family: cursive;
+font-size:60px;
+}
+span{
+    color:red;
+}
+#logo{
+    width:100px;
+    position:absolute;
+    margin-left: -90px;
+    left:10%;
+    top:5px;
+}
+main{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+}
+#title{
+    color: black;
+    background-color: rgb(237, 143, 35);
+    margin-top: 0;
+    text-align: center;
+}
+#conteudo {
+    margin-top: 0%;
+    height: 100%;
+    text-align: left;
+    padding: 10px 10px;
+}
+#conteudo div{
+    padding: 5px 5px;
+}
+#tabela{
+    color: white;
+    border: 5px solid brown;
+}
+#botoes{
+    border-radius: 20px;
+}
+footer{
+    text-align: right;
+    font-size: 20px;
+    background-color: rgb(208, 62, 62);
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 5px solid #ffd900;
+    bottom: 0;
+    position: fixed;
+}
