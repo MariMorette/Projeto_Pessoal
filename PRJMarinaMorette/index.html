@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+  
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>App Teste</title>
+  </head>
+  <body>
+   
+
+    <header >
+
+        <img src="IMG/pngegg.png" class="logo" >
+        <h1 id="titulo">Sistema de Vendas</h1>
+
+    </header>
+
+    <main > 
+        <div id="title">
+
+            <h1 id="questao7">Cadastro de usuário</h1>
+
+        </div>
+
+        <div id="conteudo">
+            <div>
+                <label for="nome">Nome completo: <span>*</span></label> 
+                <input type="text"  id="nome" name="nome"  />
+            </div>
+           
+            <div>
+                <label for="email">E-mail:<span>*</span></label> 
+                <input type="text"  id="email" name="email"  />
+            </div>
+            <div>
+                <label for="cep">Cep:<span>*</span></label> 
+                <input type="text"  id="cep" name="cep" maxlength="9" onkeypress="cepMascara(this)" />
+            </div>
+         
+            <div>
+                <label for="numero">Número</span></label> 
+                <input type="number"  id="numero" name="numero"  />
+            </div>
+        
+            <div>
+                <label for="password">Senha<span>*</span></label> 
+                <input type="password"  id="password" name="password" />
+            </div>
+            
+            <div>
+                <label for="valorA">Valor A: </label>
+                <input type="number"  id="valorA" name="valorA" />
+            </div>
+
+            <div>
+                <label for="valorB">Valor B: </label>
+                <input type="number"  id="valorB" name="valorB" />
+            </div>
+            <br>
+            <p id="calculo"></p>
+            <br>
+            <p id="trocap" title="Quero trocar aqui">
+                Passe o mouse aqui
+            </p>
+            <br>
+            <br>
+            <div>
+                <button type="submit" class="btn" id="salvar">Salvar</button>
+                <button type="submit" class="btn" id="limpar">Limpar</button>
+                <button type="submit" class="btn" id="impSenha" onclick="imprimirSenha()">Imprimir Senha</button>
+                <button type="submit" class="btn" id="trocarTitulo" onclick="myFunction()">Trocar Título</button>
+                <button type="submit" class="btn" id="emailAlert" onclick="emailAlerta()">Alerta</button>
+                <button type="button" onclick="document.getElementById('questao7').style.display='none'">Some</button>
+                <button type="button" onclick="document.getElementById('questao7').style.display='block'">Aparece</button>
+                <button type="button" onclick="document.getElementById('trocap').title='troca o titulo'">Troca o titulo</button>
+                <button type="button" onclick="document.getElementById('trocap').title='Sobre o W3Schools'">Sobre o W3Schools</button>
+                <button type="submit" class="btn" id="resultado" onclick="soma()">Soma</button>
+            </div>
+            <br>
+          
+         
+        </div>
+
+      
+    </main>
+
+    <footer >
+        <div >
+            <p>Marina Morette</p>
+        </div>
+
+    </footer>
+
+   
+
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/*Isto deve fazer-se sempre para remover qualquer margem, padding, etc*/
+*{
+margin: 0;
+padding: 0;
+}
+header{
+    background-color: rgb(8, 143, 114);
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    border-bottom: 5px solid #f8931d;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+span{
+    color: red;
+}
+header h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    margin-left: -90px;
+    left: 12%;
+}
+main{
+    background-color: rgb(204, 151, 44);
+    padding-top: 60px;
+    height: 800px;
+}
+#conteudo{
+    background-color: rgb(114, 101, 85);
+    margin-top: 0%;
+    height: 100%;
+    text-align: left;
+    padding: 10px 10px;
+}
+#title{
+    background-color: rgb(228, 155, 73);
+    margin-top: 0;
+    text-align: center;
+}
+#conteudo div{
+    padding: 5px 5px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+footer{
+    background-color: rgb(143, 96, 8);
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 5px solid #3a8ae9;
+    bottom: 0;
+    position: fixed;
+    text-align: right;
+}
