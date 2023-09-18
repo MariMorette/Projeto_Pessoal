@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a {
+    font-size: 20px;
+    color:black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #a32323;
+}
+h1{
+    color: #be4242;
+}
+ul {
+    display: flex;     justify-content: space-between;  /*  colocar o menu um do lado do outro */
+    list-style-type: none;  /*  tirar a bolinha do lado */
+    align-items: center;
+    background-color: #be4242;
+    padding: 0px;
+    overflow: hidden;
+}
+
+a {
+    color: white;  /*  trocar a cor do link */
+    text-decoration: none;  /*  tirar a linha de baixo */
+}
+header img { /*   estilizar a imagem */
+    width: 150px;     height: 150px;  /*  tamanho da imagem */
+    border-radius: 50%; /*  borda arredondada */
+    border: 5px inset #be4242;    
+}
+.container{
+    padding: 0px 50px;
+}
+.center {
+    text-align: center;      /*   text-align  serve para centralizar todos os elementos da div ao centro */
+}
+footer{
+    display: flex;     justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    width: 70px;     height: 70px;
+}
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #be4242;
+    cursor: pointer;
+}
